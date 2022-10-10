@@ -6,29 +6,29 @@ Approaches and solutions to Grind 75 leetcode questions
 
 ### 1. Two Sum
 
-**approach**
+**Approach**
 
-Only one pass through the entire array.
-Keep checking if target - current number exists in a hashmap.
-If it does, we have found the pair.
-If not, store current number and its index in the hashmap to be discovered later.
+- Only one pass through the entire array.
+- Keep checking if `target - current number` exists in a hashmap.
+- If it does, we have found the pair.
+- If not, store current number and its index in the hashmap to be discovered later.
 
-**time complexity**
+**Time complexity**
 
 O(N) since we make only one pass through the entire array.
 
-**space complexity**
+**Space complexity**
 
 O(N) since we store all numbers in a hashmap in the worst case.
 
 ### 2. Valid Parentheses
 
-**approach**
+**Approach**
 
 
-**time complexity**
+**Time complexity**
 
 
-**space complexity**
+**Space complexity**
 
 
