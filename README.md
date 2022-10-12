@@ -39,3 +39,20 @@ O(N) since we check each character only once.
 **Space complexity**
 
 O(N) for the extra stack.
+
+
+### [3. Merge two sorted lists](https://leetcode.com/problems/merge-two-sorted-lists/)
+
+**Approach**
+
+- Handle base cases: if one of the lists are empty, return the other.
+- compare the value at the head of the lists.
+- Recursively update the next pointer of the lists depending on which one has the smaller value.
+
+**Time complexity**
+
+O(N) where N is the total length of both the lists. Since we encounter each node only once, it's linear.
+
+**Space complexity**
+
+O(N) due to recursion stack.
