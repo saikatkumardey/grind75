@@ -56,3 +56,21 @@ O(N) where N is the total length of both the lists. Since we encounter each node
 **Space complexity**
 
 O(N) due to recursion stack.
+
+### [4. Buy and sell stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/)
+
+**Approach**
+
+- One single pass through the array.
+- Keep track of the minimum seen so far and the maximum profit obtained so far.
+- If you see a price bigger than the minimum price so far, update max profit.
+- If you see a price smaller than the minimum price, update minimum price so far.
+
+
+**Time Complexity**
+
+O(N) since we encounter each price only once.
+
+**Space Complexity**
+
+O(1) since we don't use any extra space.
