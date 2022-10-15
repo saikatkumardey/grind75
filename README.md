@@ -89,7 +89,7 @@ O(1) since we don't use any extra space.
 
 **Time Complexity**
 
-O(N) since we encounter each price only once.
+O(N) because of a single pass through the string.
 
 **Space Complexity**
 
