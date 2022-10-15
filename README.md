@@ -74,3 +74,23 @@ O(N) since we encounter each price only once.
 **Space Complexity**
 
 O(1) since we don't use any extra space.
+
+### [5. Valid Palindrome](https://leetcode.com/problems/valid-palindrome/)
+
+**Approach**
+
+- make the entire string lower-case
+- use two-pointers.
+    - the left pointer ignores non-alphanumeric characters from the left by skipping forward.
+    - the right pointer ignores non-alphanumeric characters from the right by skipping backward.
+- when both pointers point to an alphanumeric character, compare them.
+- if at any point, the pointers point to different characters, it can't be a palindrome
+- it's a valid palindrome if both pointers cross each other without failure.
+
+**Time Complexity**
+
+O(N) since we encounter each price only once.
+
+**Space Complexity**
+
+O(1) since we don't use any extra space.
