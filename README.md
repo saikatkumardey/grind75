@@ -94,3 +94,23 @@ O(N) because of a single pass through the string.
 **Space Complexity**
 
 O(1) since we don't use any extra space.
+
+
+### [6. Invert Binary Tree](https://leetcode.com/problems/invert-binary-tree/)
+
+**Approach**
+
+- Handle base cases
+    - Empty tree
+    - Only one node in the tree
+- Invert tree for the left and right subtrees recursively
+- Handle the inverted left and right sub-trees at the root
+- Return the root
+
+**Time Complexity**
+
+O(N) since we do constant work at each node.
+
+**Space Complexity**
+
+O(N) for recursion stack if the tree is like a linked-list (skewed, only left/right child at each node)
