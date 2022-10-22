@@ -114,3 +114,24 @@ O(N) since we do constant work at each node.
 **Space Complexity**
 
 O(N) for recursion stack if the tree is like a linked-list (skewed, only left/right child at each node)
+
+
+### [7. Valid Anagram](https://leetcode.com/problems/valid-anagram/)
+
+**Approach**
+
+Anagram => Frequency of characters in both the strings should be exactly equal.
+
+Use a dictionary to count the frequency of characters in one string and subtract the character frequencies from the second string. 
+
+If you encounter any character in the second string that isn't present in the dictionary, it can't be an anagram.
+
+Sum of frequencies in the dictionary after going through the second string should be 0 if it's an anagram.
+
+**Time Complexity**
+
+O(N) where N is the sum of length of the strings.
+
+**Space Complexity**
+
+O(N) since we go through every character in the strings constant number of times.
