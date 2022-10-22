@@ -120,13 +120,10 @@ O(N) for recursion stack if the tree is like a linked-list (skewed, only left/ri
 
 **Approach**
 
-Anagram => Frequency of characters in both the strings should be exactly equal.
-
-Use a dictionary to count the frequency of characters in one string and subtract the character frequencies from the second string. 
-
-If you encounter any character in the second string that isn't present in the dictionary, it can't be an anagram.
-
-Sum of frequencies in the dictionary after going through the second string should be 0 if it's an anagram.
+- Anagram: Frequency of characters in both the strings should be exactly equal.
+- Use a dictionary to count the frequency of characters in one string and subtract the character frequencies from the second string. 
+- If you encounter any character in the second string that isn't present in the dictionary, it can't be an anagram.
+- Sum of frequencies in the dictionary after going through the second string should be 0 if it's an anagram.
 
 **Time Complexity**
 
