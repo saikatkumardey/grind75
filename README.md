@@ -165,3 +165,20 @@ O(M * N) where the matrix is of dimension M x N since each cell is visited once.
 **Space Complexity**
 
 O(M * N) for recursion stack.
+
+
+### [10. Lowest Common Ancestor of a Binary Search Tree](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-search-tree/)
+
+**Approach**
+
+- Search on the left subtree if both p and q are smaller than root. 
+- Search on the right subtree if both p and q are greater than root.
+- return root otherwise (which means p & q are on either side of the root)
+
+**Time Complexity**
+
+O(N) where N = number of nodes in the tree. For balanced BST, it's O(logN)
+
+**Space Complexity**
+
+O(N)
