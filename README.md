@@ -132,3 +132,36 @@ O(N) where N is the sum of length of the strings.
 **Space Complexity**
 
 O(N) since we go through every character in the strings constant number of times.
+
+### [8. Binary search](https://leetcode.com/problems/binary-search/)
+
+**Approach**
+
+- check the middle index.
+- if the target == middle, return the index.
+- if target > middle, search the second half of the array.
+- if target < middle, search the first half of the array.
+
+
+**Time Complexity**
+
+O(logN) since we reduce the search space by half in each iteration.
+
+**Space Complexity**
+
+O(1) since we don't use any extra space.
+
+
+### [9. Flood fill](https://leetcode.com/problems/flood-fill/)
+
+**Approach**
+
+Standard DFS. Make sure to store the original color of a cell before filling it with new color.
+
+**Time Complexity**
+
+O(M * N) where the matrix is of dimension M x N since each cell is visited once.
+
+**Space Complexity**
+
+O(M * N) for recursion stack.
