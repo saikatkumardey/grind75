@@ -182,3 +182,19 @@ O(N) where N = number of nodes in the tree. For balanced BST, it's O(logN)
 **Space Complexity**
 
 O(N)
+
+
+### [11. Balanced Binary Tree](https://leetcode.com/problems/balanced-binary-tree/)
+
+**Approach**
+
+- Compute height of left and right subtrees recursively.
+- If at any node, the height differs by 1, return False. Otherwise, it's a balanced tree.
+
+**Time Complexity**
+
+O(N) where N = number of nodes in the tree since we encounter each node once.
+
+**Space Complexity**
+
+O(N)
