@@ -240,3 +240,5 @@ O(1)
 - empty(): O(1)
 
 **Space Complexity**
+
+O(N)
