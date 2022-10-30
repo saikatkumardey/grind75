@@ -198,3 +198,21 @@ O(N) where N = number of nodes in the tree since we encounter each node once.
 **Space Complexity**
 
 O(N)
+
+
+### [12. Linked List Cycle](https://leetcode.com/problems/linked-list-cycle/)
+
+**Approach**
+
+- Fast and slow pointer.
+- Move slow ptr by one step.
+- Move fast ptr by two steps.
+- If they meet, there's a cycle
+
+**Time Complexity**
+
+O(N) where N = number of nodes
+
+**Space Complexity**
+
+O(1)
