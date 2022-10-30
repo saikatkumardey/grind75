@@ -216,3 +216,27 @@ O(N) where N = number of nodes
 **Space Complexity**
 
 O(1)
+
+### [13. Implement Queue using Stacks](https://leetcode.com/problems/implement-queue-using-stacks/)
+
+**Approach**
+
+- Use two stacks: one for pushing and one for popping.
+- push():
+    - insert to push-stack
+- pop():
+    - if pop-stack is non-empty, pop() from there.
+    - otherwise, copy everything in reverse from the push stack into pop stack and pop()
+- peek():
+    - peek from the end of pop_stack if it's non-empty. Else, peek from the beginning of the push-stack if it's non-empty.
+- empty():
+    - true if both stacks are empty, false otherwise.
+
+**Time Complexity**
+
+- push(): O(1) 
+- pop(): O(1) amortized.
+- peek(): O(1)
+- empty(): O(1)
+
+**Space Complexity**
