@@ -271,3 +271,17 @@ O(N) where N = max length of either words.
 **Space Complexity**
 
 O(1) since the size of the dictionary can be 26 characters max.
+
+### [16. Climbing Stairs](https://leetcode.com/problems/climbing-stairs/)
+
+**Approach**
+
+Similar to computing n-th fibonacci. Use a cache.
+
+**Time Complexity**
+
+O(N) since only N-1 recursive calls are needed due to caching.
+
+**Space Complexity**
+
+O(N) due to recursion stack.
