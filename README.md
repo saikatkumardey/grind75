@@ -242,3 +242,18 @@ O(1)
 **Space Complexity**
 
 O(N)
+
+
+### [14. First Bad Version](https://leetcode.com/problems/first-bad-version/)
+
+**Approach**
+
+Binary search. When a bad version is found, keep checking on the left half.
+
+**Time Complexity**
+
+O(logN)
+
+**Space Complexity**
+
+O(1)
