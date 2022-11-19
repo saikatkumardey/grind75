@@ -2,7 +2,7 @@ class Solution:
     def isAnagram(self, s: str, t: str) -> bool:
         freq_counter = {}
         for char in s:
-            freq_counter[char] = freq_counter.get(char,0) + 1
+            freq_counter[char] = freq_counter.get(char, 0) + 1
         for char in t:
             if char not in freq_counter:
                 return False

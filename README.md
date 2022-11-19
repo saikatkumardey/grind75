@@ -257,3 +257,17 @@ O(logN)
 **Space Complexity**
 
 O(1)
+
+### [15. Random Note](https://leetcode.com/problems/ransom-note/)
+
+**Approach**
+
+Use a freq counter.
+
+**Time Complexity**
+
+O(N) where N = max length of either words.
+
+**Space Complexity**
+
+O(1) since the size of the dictionary can be 26 characters max.

@@ -4,6 +4,6 @@ class Solution:
         for idx, num in enumerate(nums):
             remaining = target - num
             if remaining in mem:
-                return [mem[remaining],idx]
+                return [mem[remaining], idx]
             mem[num] = idx
         return []
