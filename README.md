@@ -258,7 +258,7 @@ O(logN)
 
 O(1)
 
-### [15. Random Note](https://leetcode.com/problems/ransom-note/)
+### [15. Ransom Note](https://leetcode.com/problems/ransom-note/)
 
 **Approach**
 
@@ -285,3 +285,19 @@ O(N) since only N-1 recursive calls are needed due to caching.
 **Space Complexity**
 
 O(N) due to recursion stack.
+
+### [17. Longest Palindrome](https://leetcode.com/problems/longest-palindrome/)
+
+**Approach**
+
+- Count char frequency
+- Subtract 1 from all odd-frequency characters except 1 which we can use.
+- answer => sum of freq of all even characters + (1 if odd-freq exists else 0)
+
+**Time Complexity**
+
+O(N)
+
+**Space Complexity**
+
+O(1)
